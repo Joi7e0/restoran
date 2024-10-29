@@ -1,0 +1,39 @@
+body {
+    margin: 0; /* Полоси отменяет*/
+    font-family: "Open Sans";
+}
+.header {
+    height: 100vh; /*розтягивает на весь екран */
+    background-image: url(/photo/bg.png);
+    background-repeat: no-repeat; 
+    background-size: cover; /*розтягивает на весь екран */
+}
+.container {
+    margin: 0px 166px; /*поле нашего меню а именно отступ*/
+
+
+}
+
+.header-liner {
+    padding-top: 50px ;
+    display: flex;
+    align-items: center ;
+}
+
+.nav-item {
+    color: #fff; /*цвет текста  */
+    text-decoration: none; /*отвечает за видимость ссилки */
+
+    font-weight: 700;
+    font-size: 14px;
+    margin: 25px;
+
+}
+
+.num-txt {
+    color: #fff;
+    text-decoration: none;
+}
+.phone-txt {
+    color: #fff;
+}
